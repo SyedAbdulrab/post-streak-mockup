@@ -1,0 +1,85 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+h1 {
+  font-weight: 700;
+}
+span {
+  color: rgb(221, 50, 50);
+}
+
+.navbar-brand {
+  font-family: "PT Serif", serif;
+  font-size: 2.5rem;
+  padding-left: 10rem;
+}
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.last {
+  margin-right: 9rem;
+}
+i {
+  color: rgb(221, 50, 50);
+}
+.top-container {
+  background-color: rgb(221, 50, 50);
+  padding: 4% 12% 9%;
+}
+img {
+  width: 100%;
+  border: 2px solid black;
+}
+p {
+  padding: 1rem 0;
+}
+.row i {
+  color: white;
+}
+
+.bottom-bar {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1.4rem;
+  background-color: rgb(31, 28, 28);
+}
+
+.inline-buttons {
+  border: 1px solid white;
+}
+
+.btn-1 {
+  padding: 0;
+}
+.btn-2 {
+  padding: 0;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-brand{
+        padding-left: 0;
+    }
+  body {
+    text-align: center;
+  }
+  .btn-1 {
+    padding: 1rem;
+  }
+  .btn-2 {
+    padding: 1rem;
+  }
+
+  #top-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #image {
+    order: 2;
+  }
+}
